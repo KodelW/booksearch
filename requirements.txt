@@ -1,0 +1,12 @@
+# requirements.txt
+# List of Python packages required for the application.
+# Install using: pip install -r requirements.txt
+
+streamlit
+pandas
+requests
+openai >= 1.0 # Specify version if needed, ensure compatibility with code
+python-dotenv # For loading API keys from .env file
+# Add other libraries like numpy if explicitly used,
+# although pandas usually includes it.
+numpy
